@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Habit Tracker</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <header>
+            <h1>Habit Tracker</h1>
+            <p>Build good habits, one day at a time.</p>
+        </header>
+
+        <!-- Today's date -->
+        <div class="date-section">
+            <h2 id="today-date"></h2>
+        </div>
+
+        <!-- Progress section -->
+        <div class="progress-box">
+            <h3>Today's Progress</h3>
+            <p id="progress">0 / 0 Completed</p>
+        </div>
+
+        <!-- Add habit section -->
+        <div class="add-section">
+
+            <h3>Add a New Habit</h3>
+
+            <form id="habit-form">
+
+                <input
+                    type="text"
+                    id="habit-input"
+                    placeholder="Enter your habit..."
+                    required
+                >
+
+                <button type="submit">Add Habit</button>
+
+            </form>
+
+        </div>
+
+        <!-- Habit list -->
+        <div class="habit-section">
+
+            <h3>My Daily Habits</h3>
+
+            <ul id="habit-list"></ul>
+
+        </div>
+
+    </div>
+
+    <script src="renderer.js"></script>
+
+</body>
+</html>
