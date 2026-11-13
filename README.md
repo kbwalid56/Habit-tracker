@@ -11,7 +11,7 @@ The purpose of this project is to help users build good habits and maintain a pr
 - **Delete Habits:** Remove habits you no longer need.
 - **Daily Progress:** View how many habits you have completed today.
 - **Save Habits:** Habits are saved locally using LocalStorage, so they remain available after closing the application.
-- 
+  
 ## 📸 Screenshots
 <img width="662" height="482" alt="image" src="https://github.com/user-attachments/assets/fc57d007-3cff-44d1-9de6-634a89d4ffb3" />
 <img width="661" height="479" alt="image" src="https://github.com/user-attachments/assets/0c5bb3c3-32fb-4d98-a429-a94ad97e42d8" />
